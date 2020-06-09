@@ -1,3 +1,9 @@
+.headerT{
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+
 .regsto{
     width: 100vw;
     height: 100vh;
@@ -10,6 +16,11 @@
     background-color: #f9e4b7;
     display: flex;
     align-items: center;
+}
+
+.Danger{
+    color: red;
+    text-align: center;
 }
 
 .ingreso{
@@ -152,4 +163,16 @@ table th{
 .title{
     text-align: center;
     background-color: #23fe25;
+}
+
+.Export{
+    background-color: #0275d8;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Export:hover{
+    background-color: #2884d4;
+    color: white;
 }

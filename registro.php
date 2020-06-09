@@ -9,6 +9,7 @@
 <body class="regsto">
     
     <div class="registro">
+    <h1 class="headerT">XYZPARKING</h1>
         <div class="container">
         <h1 class="title">Parqueaderos Ocupados</h1>
         <div class="miniMenu">

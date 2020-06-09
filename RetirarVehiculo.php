@@ -2,12 +2,11 @@
 <?php include 'header.php' ?>
 <body class="index">
     <div class="contForm">
-    <h2></h2>
-    
+    <h1 class="headerT">XYZPARKING</h1>    
     <div class="ingreso">
         <h1 class="title">Vehiculo Eliminado</h1>
         <form id="formIngreso Reg" action="#" method="GET">
-          <a href="../registro.php" class="btn btn-success Regresar">Regresar</a>
+          <a href="../registro.php" class="btn btn-success">Regresar</a>
         </form>
     </div>
     </div>

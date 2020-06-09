@@ -4,13 +4,13 @@ include 'Modelo/consultas.php';  ?>
 <body class="regsto">
     
     <div class="registro">
+    <h1 class="headerT">XYZPARKING</h1>
         <div class="container">
         <h1 class="title">Ingresos Totales</h1>
         <div class="miniMenu">
             <h2><a href="index.php">Registrar Vehiculo</a></h2>
             <h2><a href="registro.php">Ir a ingresos</a></h2>
-            
-            <h3><i class="far fa-file-excel"></i>Exportar Registros</h3>
+            <h3 class="Export" ><i class="far fa-file-excel"></i>Exportar Registros</h3>
             </div>
         <table class="table" id="lista_registros">
             <thead>
