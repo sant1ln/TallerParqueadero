@@ -166,13 +166,57 @@ table th{
 }
 
 .Export{
-    background-color: #0275d8;
+    background-color: rgb(64, 165, 109);
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
 }
 
 .Export:hover{
-    background-color: #2884d4;
     color: white;
+}
+
+.reporte h5{
+    padding: 10px;
+    margin: 0;
+}
+
+.salir{
+    margin-left: 30px
+}
+
+.salir:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.reporte{
+    border: 1px solid black;
+    margin: o auto;
+    display: none;
+    position: absolute;
+    right: 35%;
+    bottom:50%;
+    background-color: aliceblue;
+    width: 30vw;
+    height: 50vh;
+    -webkit-box-shadow: -8px 7px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 7px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: -8px 7px 9px 0px rgba(0,0,0,0.75);
+}
+
+.reporteActive{
+    display: block;
+    position: absolute;
+    right: 35%;
+    bottom:25%;
+    background-color: aliceblue;
 }

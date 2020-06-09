@@ -1,1 +1,0 @@
-<script src="Controlador/controlador.js"></script>

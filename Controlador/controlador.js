@@ -34,7 +34,7 @@ function insertarBD(datos){
 
     var xhr = new XMLHttpRequest();
 
-    xhr.open('POST', 'Modelo/modelo_ingreso.php', true);
+    xhr.open('POST', '../Modelo/modelo_ingreso.php', true);
 
     xhr.onload = function(){
         if(this.status === 200){
@@ -46,7 +46,7 @@ function insertarBD(datos){
                 alert('vehiculo Registrado');
                 window.location.href = "index.php";
                 /* location.href = "registro.php" */
-               /*  MostrarAuto(respuesta); */
+               
             }
         }
     }

@@ -39,4 +39,14 @@ function RegistroPermanente(){
     }
 }
 
+function BuscarPorFecha($inicio,$fin){
+    include 'conexion.php';
+    try{
+        return $conn->query("SELECT `id`, `matricula`, `fechaingreso`, `fechasalida`, `tipo` FROM `registros` WHERE `fechaingreso` BETWEEN '$inicio' AND '$fin'");
+    }catch(Exception $e){
+        echo "error!!". $e->getMessage() ."<br>";
+        return false;
+    }
+}
+
 ?>

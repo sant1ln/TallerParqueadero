@@ -6,7 +6,7 @@
     <div class="ingreso">
         <h1 class="title">Vehiculo Eliminado</h1>
         <form id="formIngreso Reg" action="#" method="GET">
-          <a href="../registro.php" class="btn btn-success">Regresar</a>
+          <a href="../Vista/registro.php" class="btn btn-success">Regresar</a>
         </form>
     </div>
     </div>

@@ -1,5 +1,5 @@
 <?php include 'header.php';
- include 'Modelo/consultas.php'; ?>
+ include '../Modelo/consultas.php'; ?>
 <body class="index">
     
     <div class="contForm">

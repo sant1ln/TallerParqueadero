@@ -1,6 +1,6 @@
 <?php include 'header.php'; 
-    include 'Modelo/conexion.php';
-    include 'Modelo/consultas.php';
+    include '../Modelo/conexion.php';
+    include '../Modelo/consultas.php';
 
 ?>
 
@@ -40,7 +40,7 @@
                         <td><i title="Motocicleta" class="icon iconMot fas fa-motorcycle"></i></td>
                     <?php  }?>
                     <td><?php echo $ingreso['FechaIngreso']?></td>
-                    <td><a href="Controlador/controladorRetiro.php?id=<?php echo $ingreso['NumRegistro'];?>&placa=<?php echo $ingreso['matricula'];?>&tipo=<?php echo $ingreso['tipoV'];?>&ingreso=<?php echo $ingreso['FechaIngreso'];?>">
+                    <td><a href="../Controlador/controladorRetiro.php?id=<?php echo $ingreso['NumRegistro'];?>&placa=<?php echo $ingreso['matricula'];?>&tipo=<?php echo $ingreso['tipoV'];?>&ingreso=<?php echo $ingreso['FechaIngreso'];?>">
                     <i title="Retirar" class="icon iconE fas fa-sign-out-alt"></i></a></td>
                   <?php    }
                  } ?>

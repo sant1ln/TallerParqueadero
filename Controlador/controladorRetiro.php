@@ -15,7 +15,7 @@ include '../Modelo/consultas.php';
          $LlenarRegistro = llenarRegistroPermante($matricula, $tipo, $FechaIngreso, $FechaSalida);
          if($LlenarRegistro){
            
-             include '../RetirarVehiculo.php';
+             include '../Vista/RetirarVehiculo.php';
          }
      }
  ?>
