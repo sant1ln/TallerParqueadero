@@ -1,0 +1,155 @@
+.regsto{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f9e4b7;
+}
+
+.index{
+    width: 100vw;
+    height: 100vh;
+    background-color: #f9e4b7;
+    display: flex;
+    align-items: center;
+}
+
+.ingreso{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 30vw;
+    height: 50vh;
+    -webkit-box-shadow: -8px 7px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 7px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: -8px 7px 9px 0px rgba(0,0,0,0.75);
+}
+
+/* .ingreso h1{
+    text-align: center;
+    background-color: grey;
+    color: white;
+} */
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+form label{
+    display: block;
+}
+
+form input{
+    width: 100%;
+    height: 25px;
+    text-transform: uppercase;
+}
+
+select{
+    width: 180px;
+    height: 25px;
+}
+
+.form-d{
+    margin: 10px 0;
+}
+
+.enviar{
+    width: 100px;
+    height: 50px;
+}
+
+.registro{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.container{
+    background: white;
+}
+
+tbody{
+    color: black;
+    font-size: 25px;    
+    font-weight: 100;
+}
+
+
+
+.icon{
+    font-size: 35px;
+    cursor: pointer;
+
+}
+
+.pila:hover{
+    background-color: #f9e4b7;
+}
+td{
+    margin: 0;
+    text-transform: uppercase;
+    padding: 0;
+    text-align: center; 
+}
+
+th{
+   text-align: center;   
+}
+
+table th{
+ text-align: center;
+}
+
+.iconE:hover{
+    color: rgb(223, 62, 62);
+}
+
+.iconCar{
+    color: #00acee; 
+}
+
+.iconMot{
+    color: #23fe25;
+}
+
+.miniMenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Reg{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Regresar{
+    width: 400px;
+    height: 80px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.Regresar a:hover{
+    color: rgb(200, 253, 200);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.title{
+    text-align: center;
+    background-color: #23fe25;
+}
