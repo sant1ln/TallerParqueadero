@@ -1,3 +1,21 @@
+# Como Funciona el taller:
+
+>> Ir a http://localhost/parkingxyz/Vista/index.php para comenzar.
+
+>>Al ingresar al index, podra registrar autos hasta que el cupo este completo, o bien, ingresar al registro de autos que hay actualment en el parqueadero.
+
+>>Use dos tablas, una de ingresos (para 10 autos que estarán entrando saliendo), y otra para los ingresos totales de autos ver(ingresos Totales). 
+
+>>El usuario nunca ingresa fechas, el sistema las hace automaticamente para evitar fraudes.
+
+>>No logre hacer el reporte en excel, me daba errores que no supe solucionar.
+
+
+
+
+
+
+
 # Usted es contratado por la empresa xyz para que desarrolle una aplicacion para un parqueadero en la ciudad de Medellin, el cual tiene los siguientes requerimientos.
 
 ## 1. Registrar el ingreso del vehiculo: Para este proceso se debe capturar la placa del vehiculo, la fecha de ingreso , hora de ingreso, fecha de retiro y tipo de vehiculo.

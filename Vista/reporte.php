@@ -7,7 +7,7 @@
     echo $inicio . "<br>";
     echo $fin . "<br>";
 
-        header('Content-Type:text/xls; charset=uft-8');
+        header('Content-Type: application/vnd.ms-excel');
         header('Content-Disposition: attachment; filename="ReporteFechas.xls');
 
         $salida=fopen('php://output', 'w');
